@@ -65,7 +65,7 @@ a:hover:after {
 .header {
     background: #000000;
     display: flex;
-    height: 200px;
+    height: 190px;
     justify-content: space-between;
     align-items: center;
     padding: 45px;
@@ -88,16 +88,8 @@ a:hover:after {
 
 /*---------------------------------------------------------------- */
 
-.container {
-    max-width: 1800px;
-    margin: 0 auto;
-    border: 1px solid black;
-    display: grid;
-    grid-gap: 20px;
-}
-
 .menu {
-    width: 250px;
+    width: 200px;
     height: 600px;
     grid-area: menu;
 }
@@ -130,6 +122,7 @@ a:hover:after {
 }
 
 .grid {
+    padding-top: 20px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
