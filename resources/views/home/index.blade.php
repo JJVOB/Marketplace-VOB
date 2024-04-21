@@ -33,7 +33,7 @@
         <a href="#" class="logo aft">VOB</a>
         <nav class="nav-list">
             <ul class="ul-list">
-                <li><a class="login aft" id="home" href="#" rel="noopener noreferrer" style="padding-right: 50px">Home</a> </li>
+                <li><a class="login aft" id="home" href="{{ route('/') }} rel="noopener noreferrer" style="padding-right: 50px">Home</a> </li>
                 <li><a class="login aft" id="login" href="#" rel="noopener noreferrer" style="padding-right: 50px">Marketplace</a> </li>
                 <li><a class="login aft" id="suporte" href="#" rel="noopener noreferrer" style="padding-right: 50px">Suporte</a> </li>
             </ul>
@@ -63,7 +63,7 @@
           <p>Nosso marketplace é um verdadeiro tesouro de opções, onde você pode encontrar desde os últimos lançamentos tecnológicos até os clássicos atemporais, 
             tudo em um único lugar. Com uma equipe dedicada de especialistas em produtos, trabalhamos incansavelmente para garantir que cada item em nosso catálogo 
             atenda aos mais altos padrões de qualidade e funcionalidade.</p>
-          <a href="#" class="btn btn-outline-secondary" type="button">Acessar Marketplace</a>
+          <a href="{{ route('marketplace') }} class="btn btn-outline-secondary" type="button">Acessar Marketplace</a>
         </div>
       </div>
     </div>
